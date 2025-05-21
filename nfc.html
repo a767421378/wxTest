@@ -5,12 +5,12 @@
     <title>跳转中...</title>
     <script>
         // 直接跳转至微信 Scheme（Android 可静默跳转）
-        window.location.href = 'weixin://dl/business/?t=你的小程序Scheme参数';
+        window.location.href = 'weixin://dl/business/?appid=wx2606e3a4b0916beb&path=pages/home/home';
         
         // 兼容 iOS 弹窗提示（可选）
         setTimeout(function() {
             alert("点击确定后，将自动跳转到微信小程序");
-            window.location.href = 'weixin://dl/business/?t=你的小程序Scheme参数';
+            window.location.href = 'weixin://dl/business/?appid=wx2606e3a4b0916beb&path=pages/home/home';
         }, 100);
     </script>
 </head>
